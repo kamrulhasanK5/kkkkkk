@@ -1,0 +1,609 @@
+/*=================================
+comon css
+=================================*/
+body {
+    color: #979797;
+    font-size: 12px;
+    font-family: Georgia, sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.aligenleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.aligenright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.aligencenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+/*=================================
+top header css
+=================================*/
+.header-area {
+    width: 100%;
+    clear: both;
+}
+
+#top-header-area {
+    background: #2e2e2e;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.inner-header {
+    overflow: hidden;
+}
+
+.mini-menu {
+    width: 50%;
+    float: left;
+}
+
+.mini-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 12px;
+}
+
+.mini-menu ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mini-menu ul li::after {
+    position: absolute;
+    background: #9f9f9f;
+    width: 1px;
+    content: "";
+    top: 1px;
+    right: -6px;
+    height: 12px;
+}
+
+.mini-menu ul li:last-child::after {
+    display: none;
+}
+
+.mini-menu ul li a {
+    color: #9f9f9f;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.mini-menu ul li a:hover {
+    color: #fff;
+
+}
+
+.mini-menu ul li a:hover {}
+
+.social-menu {
+    width: 50%;
+    float: left;
+}
+
+.social-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.social-menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.social-menu ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+.social-menu ul li a i {
+    background: #787878;
+    border-radius: 50%;
+    color: #fff;
+    width: 30px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    padding-top: 12px;
+    font-size: 15px;
+    height: 20px;
+}
+
+.social-menu ul li a:hover i {
+    background: #ba2e1f;
+}
+
+.social-menu ul li a:hover i.fa-twitter {
+    background: blue;
+}
+
+.social-menu ul li a:hover i.fa-pinterest {
+    background: #db4a39;
+}
+
+.social-menu ul li a:hover i.fa-google-plus-g {
+    background: #ba2e1f;
+}
+
+.social-menu ul li a:hover i.fa-rss {
+    background: #FE5200;
+}
+
+
+/*=================================
+main menu css
+=================================*/
+#main-menu {
+    background: #fff;
+    padding: 45px 0;
+}
+
+.inner-main-menu {
+    min-height: 20px;
+    border-bottom: 5px solid #f1f1f1;
+    padding-bottom: 8px;
+}
+
+#main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#main-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#main-menu ul li a {
+    color: #2e2e2e;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#main-menu ul li a:hover {
+    color: #9f9f9f;
+}
+
+#main-menu ul li a:hover {
+    border-bottom: 5px solid #0099ff;
+    padding-bottom: 11px;
+    text-overflow: ellipsis;
+}
+
+/*=================================
+main header css
+=================================*/
+#main-header {
+    background: #fff;
+    padding: 40px 0;
+}
+
+.inner-main-header {
+    overflow: hidden;
+}
+
+.logo-area {
+    width: 50%;
+    float: left;
+}
+
+.logo-area h1 {
+    font-size: 36px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.logo-area p {
+    font-size: 12px;
+    color: #999999;
+    margin: 0;
+}
+
+.search-area {
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 47px;
+}
+
+.search-area form {
+    background: #f1f1f1;
+    float: left;
+    margin-left: 190px;
+    text-align: left;
+
+
+}
+
+.search-area input {
+    border: 0px solid;
+    padding: 8px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    width: 185px;
+
+
+}
+
+.search-area button {
+    border: 0px solid;
+    background: #0099ff;
+    padding: 8px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*=================================
+slider area css
+=================================*/
+#slider-area {
+    background: #f1f1f1;
+    padding: 20px 0;
+}
+
+.inner-slider-area {
+    overflow: hidden;
+}
+
+.text-area {
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+
+.text-area h1 {
+    font-size: 36px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 1.3em;
+    width: 400px;
+    margin-bottom: 0;
+}
+
+.text-area p {
+    font-size: 16px;
+    color: #666666;
+    word-spacing: 3px;
+    line-height: 1.3em;
+    margin-bottom: 25px;
+
+}
+
+.text-area a {
+    font-size: 16px;
+    background: #0099ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.text-area a:hover {
+    background: #555;
+    color: #fff;
+}
+
+.image-area {
+    width: 50%;
+    float: left;
+}
+
+/*=================================
+hero area css
+=================================*/
+#hero-area {
+    background: #fff;
+    padding: 40px 0;
+}
+
+.inner-hero-area {
+    overflow: hidden;
+}
+
+.logo-area {
+    width: 50%;
+    float: left;
+}
+
+.texts-area {
+    width: 50%;
+    float: left;
+}
+
+.child-area {
+    width: 46%;
+    float: left;
+    margin: 0 2% 15px;
+    text-align: center;
+}
+
+.child-area h2 {
+    color: #0099ff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.child-area p {
+    color: #666666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/*=================================
+CONTACT area css
+=================================*/
+#contact-area {
+    background: #e0e0e0;
+    padding: 20px 0;
+}
+
+.inner-contact {
+    overflow: hidden;
+    border-left: 10px solid #0099ff;
+}
+
+.left-area {
+    padding-left: 25px;
+    width: 60%;
+    float: left;
+}
+
+.left-area h2 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.left-area p {
+    color: #333333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.right-area {
+    width: 30%;
+    float: left;
+}
+
+.right-area a {
+    background: #0099ff;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #e0e0e0;
+    font-size: 26px;
+    padding: 15px;
+    display: inline-block;
+    width: 260px;
+    margin-top: 25px;
+}
+
+.right-area a:hover {
+    background: #ba2e1f;
+    color: #fff;
+}
+
+/*=================================
+work area css
+=================================*/
+#work-area {
+    background: #1a1a1a;
+    padding: 40px 0;
+}
+
+.inner-work-area {
+    overflow: hidden;
+}
+
+.child-work {
+    width: 23.50%;
+    float: left;
+    margin: 0 1% 15px;
+}
+
+.child-work h2 {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+.child-work p {
+    font-size: 12px;
+    color: #666666;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+
+
+
+.about-area {
+    margin-left: 0;
+}
+
+.about-area img {
+    border: 1px solid #555555;
+    padding: 3px;
+}
+
+.about-area a {
+    font-size: 12px;
+    color: #0099ff;
+    float: right;
+    text-decoration: none;
+}
+
+.about-area a:hover {
+    color: #ba2e1f;
+
+}
+
+.link-area {}
+
+.link-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link-area ul li {
+    display: block;
+    border-bottom: 1px solid #232323;
+    line-height: 2em;
+
+}
+
+
+.link-area ul li:last-child {
+    border-bottom: 0px solid;
+
+}
+
+
+.link-area ul li a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+.link-area ul li a:hover {
+    color: #ba2;
+
+}
+
+.link-area ul li a:hover {}
+
+.blog-area {}
+
+.child-blog {
+    width: 100%;
+    clear: both;
+}
+
+.blog-area h3 {
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.blog-area h4 {
+    font-size: 10px;
+    color: #666666;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.blog-area p {
+    font-size: 12px;
+    color: #666666;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.blog-area a {
+    font-size: 12px;
+    color: #0099ff;
+    float: right;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.blog-area a:hover {
+    color: #ba2;
+}
+
+.contact-area {
+    margin-right: 0;
+}
+
+.contact-area input {
+    background: #232323;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 0px solid;
+    border-radius: 3px;
+}
+
+.contact-area textarea {
+    background: #232323;
+    margin-bottom: 10px;
+    border: 0px solid;
+    border-radius: 3px;
+    height: 100px;
+}
+
+.contact-area button {
+    background: #0099ff;
+    padding: 5px;
+    font-size: 13px;
+    color: #ffffff;
+    border: 0px solid;
+    width: 70px;
+    border-radius: 3px;
+}
+
+
+.contact-area button:hover {
+    background: #ba2e1f;
+    color: #ffffff;
+
+}
+
+/*=================================
+copyright area css
+=================================*/
+#copyright-area {
+    background: #222222;
+    padding: 20px 0;
+}
+
+.inner-copyright {
+    overflow: hidden;
+}
+
+.lefts-area p {
+    color: #666666;
+    font-size: 12px;
+    width: 50%;
+    float: left;
+}
+
+.right-area {
+    color: #666666;
+    font-size: 12px;
+    float: right;
+    text-align: right;
+}

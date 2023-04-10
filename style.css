@@ -1,0 +1,1136 @@
+ /*===================================
+comon css
+====================================*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+  }
+  body {
+     color: #666666;
+     font-family: Georgia, sans-serif;
+     font-size: 16px;
+     margin: 0;
+     line-height: 1.5em;
+     position: relative; 
+     background: #FFFFFF;
+     width: 100%;
+     height: 100vh;
+  }
+  
+  .container {
+     margin: 0 auto;
+     max-width: 960px;
+     width: 96%;
+  }
+  
+  img {
+     max-width: 100%;
+     height: auto;
+  }
+  
+  .aligenleft {
+     float: left;
+     margin-right: 15px;
+     margin-bottom: 15px;
+  }
+  
+  .aligenright {
+     float: right;
+     margin-left: 15px;
+     margin-bottom: 15px;
+  }
+  
+  .aligencenter {
+     display: block;
+     margin: 0 auto 15px;
+  }
+/*===============================
+header area
+================================*/
+#header-area{
+  padding: 25px 0;
+  margin: 25px 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: .5084rem 1.1418rem 2.5rem 0 rgb(0 0 0 / 8%);
+    transition: .3s ease-in-out;
+   
+}
+header .container{
+    padding: .5rem;
+    background-color: transparent;
+    transition: 0.3s all ease-in-out;
+}
+.kakaka a{
+    text-decoration: none;
+    color: #1B1B1B;
+}
+.sign a{
+    text-decoration: none;
+    color: green;
+
+}
+.makeschedule:hover{
+  background-color: #1B1B1B;
+  color: #ffffff;
+  border: 2px solid white;
+}
+.fa-brands:hover{
+  transition: .2s;
+  opacity: 1;
+  color: white;
+  border: 1px solid tomato;
+}
+.navbar-brand span{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+     
+}
+
+#header-area .navbar-nav li a:hover{
+    
+} 
+.container{
+    overflow: hidden;
+    box-sizing: border-box;
+    outline: none; 
+    padding: 10px;
+    border-color: #01CD86;
+}
+.row h2{
+    font-family: 'roboto';
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 19.92px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    color: #1B1B1B;
+    padding: 10px;
+    float: left;
+    margin-left: -6px;
+    cursor: pointer;
+    display: inline;
+}
+.navbar-nav {
+    overflow: hidden;
+    background-color: #ffffff; 
+    
+} 
+ul a::after{
+    content: "";
+    position: absolute;
+    top: 0px; 
+    height: 3px;
+    left: 0;
+    width: 100%;
+    background: #01CD86; 
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform .5s;  
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+  
+}
+ul a:hover::after{
+    transform: scaleX(1);
+}
+nav button span i{
+    display: block;
+}
+.collapse  ul{
+    margin: 0;
+    padding: .975rem 0rem 0rem 9rem;
+    list-style: none;
+     
+   
+    
+    
+}
+ 
+.navbar-collapse ul .nav-link:hover{
+    color: #77c0c1e8;
+}
+
+#header-area a.active{
+    color: #01CD86;
+    font-family: 'ubuntu';
+}
+ .sign{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 7px 13px;  
+    border-radius: 25px; 
+    
+ }
+ .log-in a{
+    margin-top: 5px;
+ }
+ .sign:hover{
+    color: #fff; 
+    background-color: #01CD86; 
+    transition: all 0.3s ease-in-out;  
+    border-radius: 25px;
+    padding: 7px 13px;
+    
+ }
+  /*main area*/
+
+  /*===============================
+slider area
+================================*/
+#slider-area{
+    padding: 60px 0;
+    margin: 60px 0;
+    
+}
+#slider-area h1{
+    color: #01CD86;
+    font-weight: 700;
+    font-size: 60px;
+}
+#slider-area h1 span{
+    color: #197AFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+#slider-area .input::before{
+    content: "";
+    animation: animate infinite 10s;
+}
+@keyframes animate {
+    0%{
+        content: "Kamrul Hasan."; 
+        opacity: 1;
+    }  
+    25%{
+        content: "Web Designer.";
+        opacity: 0;
+    }
+    50%{
+        content: "Web Developer.";
+        opacity: 1;
+    }
+    75%{
+        content: "Full Stack Web Developer.";
+        opacity: 0;
+    }
+    100%{
+        content: "Content Creator.";
+        opacity: 1;
+    }
+}
+#slider-area .child-photo{
+    position: relative;
+}
+#slider-area .divphot2{
+    position: absolute;
+    content: "";
+    top: 300px;
+    right: 326px;
+}
+#slider-area .divphot3{
+    position: absolute;
+    content: "";
+    top: 100px;
+    left: 0px;
+}
+ 
+#slider-area .divphot4{
+    position: absolute;
+    content: "";
+    top: 120px;
+    right: 0px;
+}
+ 
+#slider-area .divphot5{
+    position: absolute;
+    content: "";
+    bottom: -105px;
+    right: -65px;
+}
+ 
+ .container{
+    background-color: #FFFFFF;
+   
+}
+#slider-area .row{
+  
+}
+.col-md-7{
+   
+}
+.col-md-7 .GetStart{
+    overflow: hidden;
+}
+.col-md-7 h2{
+    text-align: left;
+    width: 673px;
+    font-family: 'ubuntu';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 77px;
+    z-index: 999;
+    
+}
+.col-md-7 p{ 
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "roboto";
+    font-style: normal;
+    line-height: 26px;
+    margin: 5rem 0rem!important;
+     
+}
+.col-md-7 button{
+    border: 0px solid;
+    background-color: #01CD86;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+     
+}
+.kkk{
+    margin-left: 5px;
+}
+.col-md-7 span{
+    font-size: 18px;
+    font-family: "ubuntu";
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 5px;
+}
+.col-md-7 a{
+    text-decoration: none;
+    color: #FE386A;
+    font-size: 18px;
+    font-family: "ubuntu";
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 5px;
+    border-bottom: 1px solid  #fe386982;
+}
+#slider-area .col-md-5{
+    padding: 80px 0;
+}
+
+
+/*===============================
+service area
+================================*/
+#service-area{
+    padding: 15px 0;
+}
+#service-area h1{
+    font-family: "ubuntu";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: center;
+    color: #212529;
+     
+     
+} 
+#service-area h3{
+    font-family: "ubuntu";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: center;
+    color: #212529;
+     
+     
+} 
+#service-area p{
+    font-family: "roboto";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-align: center;
+    color: #808080;
+     
+     
+}
+#service-area .card{
+    margin: 5px;
+} 
+.container{
+    background-color: #FFFFFF;
+}
+.row{
+    overflow: hidden;
+    
+}
+.col-md-4{
+  justify-content: space-between;
+}
+.col-md-4 .stclss{
+    width: 95%;
+    height: 400px;
+    background-color: #01CD86;
+    
+}
+ 
+.col-md-4 .ndclss{
+    width: 95%;
+    height: 400px;
+    background-color: #197AFF;
+    
+}
+ 
+.col-md-4 .rdclss{
+    width: 95%;
+    height: 400px;
+    background-color: #EFCC1D;
+    
+}
+.card-body{
+    margin: 10px;
+}
+#service-area a i{
+    width: 100px;
+    height: 80px;
+    background-color: transparent;
+    float: center;
+}
+.iconst{
+    background-color: #2FD69C;
+   
+}
+.iconst a{
+    margin-left: 37px;
+    font-size: 50px;
+    color: #ffffff;
+}
+.iconnd{
+    background-color: #4292FF;
+  
+}
+.iconnd a{
+    margin-left: 30px;
+    font-size: 50px;
+    color: #ffffff;
+}
+ .ico{
+    margin: 0 auto;
+    padding: 16px 0px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    cursor: pointer;
+ }
+.iconrd{
+    background-color: #F2D546;
+   
+}
+.iconrd a{
+    margin-left: 37px;
+    font-size: 50px;
+    color: #ffffff;
+}
+.service h3{
+    color: #ffffff;
+    font-family: "ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+}
+.service p{
+    color: #ffffff;
+    font-family: "ubuntu";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+ /*===============================
+about area
+================================*/
+#about-area{
+    padding: 30px 0;
+}
+  .photo{
+    position: relative;
+     
+}
+ .main-image img{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+ }
+ .firstph img{
+ border-top-left-radius: 30%;
+ border-bottom-left-radius: 30%;
+ }
+ .secondph img{
+ border-top-left-radius: 30%;
+ border-bottom-left-radius: 30%;
+ }
+ .under-image{
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 10px;
+    
+}
+.container{
+   
+}
+.row{
+    overflow: hidden;
+}
+.col-md-6{
+    display: table-row;
+}
+.content-card .card{ 
+    width: 400px;
+}
+.card-body h3{
+    
+}
+#about-area .card-image{ 
+    width: 58px;
+    height: 52px;
+    margin-right: 5px;
+}
+ 
+#about-area .card-text{ 
+    width: 120px;
+    height: 52px;
+}
+.col-md-6 h2{
+    color:#FF5D22;
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.col-md-6 h1{
+    color: #1B1B1B;
+    font-family: "ubuntu";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    float: left;
+    width: 675px;
+    height: 104px;
+
+}
+.col-md-6 p{
+    color: #737373;
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    float: left;
+    width: 600px;
+
+}
+.col-md-6 .card{
+    float: left;
+    width: 238px;
+    height: 84px;
+    margin: 10px;  
+}
+.col-md-6 .card h3{
+    font-family: "ubuntu";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+ 
+.col-md-6 .card span{
+    font-family: "ubuntu";
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.col-md-6 h5{
+    width: 642px;
+    height: 52px;
+    float: left;
+}
+.col-md-6 button{
+    background-color: #01CD86;
+    border: 0px solid;
+    float: left;
+    padding: 20px;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "ubuntu";
+    text-align: center;
+    line-height: 18px;
+}
+.card-body .card-image{
+  width: 40%;
+  float: left;
+
+}
+.card-body .card-image img{
+    margin-top: 5px;
+}
+.card-body .card-text{
+    width: 60%;
+    float: left;
+}
+.card-body .card-text h3{
+    width: 151px;
+    height: 25px;
+    font-family: "ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+ 
+.card-body .card-text span{
+    width: 151px;
+    height: 18px;
+    font-family: "ubuntu";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px; 
+}
+.pho{
+  width: 100%;
+  height: 100%;
+}
+.pho .main-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/*===========================
+pservice-area
+============================*/
+#pservise-area{
+    padding: 25px 0;
+    background-color: #E1F9F0;
+}
+#pservise-area h2{
+    color: #515A5A;
+    width: 744px;
+    height: 104px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "ubuntu";
+    line-height: 52px; 
+    margin: 0 auto;
+    text-align: center;
+}
+#pservise-area p{
+    color: #6B6B84;  
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "roboto";
+    line-height: 22px;  
+    text-align: center;
+    font-style: normal;
+}
+ 
+
+#pservise-area .container{
+  background-color: #E1F9F0;
+}
+#pservise-area .card{
+    border: 0px solid;
+    height: 448px;
+    text-align: center;
+    border-radius: 10px;
+
+    
+    
+}
+
+#pservise-area .col-md-4 .img img{
+    padding: 30px 0px 15px 0px;
+     
+}
+#pservise-area .card h3{
+    color: #1B1B1B;
+    font-family: "ubuntu";
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+     
+     
+}
+#pservise-area .card p{
+    color: #6B6B84;  
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "roboto";
+    line-height: 22px;  
+    text-align: center;
+    font-style: normal;
+}
+ 
+#pservise-area .card button{
+    background-color: #ffffff;
+    border: 0px solid;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "roboto";
+    line-height: 24px;
+    text-align: center;
+    color: #197AFF;
+    margin-top: 35px;
+}
+ 
+#pservise-area .card button img{
+     color: #01CD86;
+     background-color: red;
+     color: red; 
+}
+/*============================
+choose-area
+=============================*/
+#choose-us-area{
+    padding: 40px 0;
+}
+#choose-us-area .photo img{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 12px;
+    text-align: start;
+}
+#choose-us-area .text-area{ 
+  
+}
+#choose-us-area .text-area a{
+    color:#FF5D22;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "ubuntu";
+    line-height: 28px;
+    float: left;
+    text-decoration: none;
+
+}  
+
+#choose-us-area .text-area h2{
+    color: #1B1B1B;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "ubuntu";
+    line-height: 52px;
+    font-style: normal;
+    flex: none; 
+    text-align: left;
+
+
+}
+#choose-us-area .text-area p{
+    color: #808080;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "roboto";
+    line-height: 22px;
+    font-style: normal; 
+    text-align: left;
+
+
+}
+.text-area .mini-text strong{ 
+     float: left;
+     font-family: "inter";
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 34px;
+     background-color: #0D8AEB;
+     margin-right: 25px;
+     color: #fff;
+     margin-left: 5px;
+     width: 50px;
+     border-radius: 50%;
+     text-align: center;
+     width: 32px;
+     height: 32px; 
+}
+.text-area .mini-text h3{  
+     font-family: "ubuntu";
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 30px;
+     color: #1B1B1B; 
+}
+ 
+.text-area .mini-text p{  
+     font-family: "roboto";
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 22px;
+     color: #5F5F5F; 
+     margin-left: 62px; 
+} 
+strong{
+    border: 2px dashed red;
+}
+.leftarrow{
+    font-size: 110px;
+}
+/*=======================
+clients-area
+=========================*/
+#clients-area{
+  padding: 30px 0;
+}
+#clients-area h2{
+    color: #1B1B1B;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    font-family: "ubuntu";
+    font-style: normal;
+    text-align: center;
+}
+ 
+#clients-area p{
+    color: #808080;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "ubuntu";
+    font-style: normal;  
+    text-align: center;
+}
+#clients-area .card{ 
+     padding: 38px 41px 38px 41px;  
+     margin: 2px;
+     width: 99%;
+     height: 96%;
+}
+#clients-area .col-sm-6 h3{
+    color: #01CD86;
+    font-family: "ubuntu";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;  
+}
+ 
+#clients-area .col-sm-6 p{
+    color: #808080;
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;  
+    font-style: normal;
+    text-align: left;
+}
+#clients-area strong{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1B1B1B;
+    
+}
+ 
+#clients-area span{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+    
+}
+#clients-area .logoimg{
+     float: right;
+     padding-top: 10px;
+}
+  /*======================
+  trusted-area
+  =======================*/
+  #trusted-area{
+    background-color: #F7F8FB;
+    position: relative;
+  }
+  .posi{
+    position: absolute; 
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+    
+ }
+  #trusted-area .container{
+    height: 731px;
+    background-color: #F7F8FB;
+  }
+  #trusted-area h1{
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    align-items: center;
+    
+  }
+ 
+  #trusted-area .grid { 
+    list-style: none; 
+    padding: 10px;
+  }
+ 
+ 
+ #trusted-area li{
+    list-style: none;
+    margin-left: 5px;
+    float: left;
+ }
+  
+ #trusted-area .col-lg-2 button{
+    background-color: #01CD86;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+ }
+ #trusted-area .col-lg-2 .fa-solid{
+     color: #fff;
+ }
+ /*====================
+ footer-area
+ ======================*/
+ #footer-area{
+    background-color: #28394A;
+    
+
+ } 
+
+ #footer-area .container{
+    background-color: #28394A;
+    
+ }
+ #footer-area .row{   
+    padding: 40px 0;
+    align-items: center;
+    color: #fff;
+ }
+ #footer-area .fimg{
+  width: 150px;
+  height: 100px;
+  
+
+ }
+.col-md-1 h3{
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+ }
+ #footer-area p{
+    font-family: "ubuntu";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    float: left; 
+    width: 235px;
+    height: 150px;
+ }
+ #footer-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ #footer-area ul li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 5px;
+ }
+
+ #footer-area h3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+ }
+ #footer-area li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+ }
+ #footer-area .col-md-1{
+    float: left;
+     
+ }
+ .col-md-2 li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 10px;
+    ;
+ }
+ .col-md-2 button{
+    padding: 18px 16px;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+ }
+ #footer-area .icon li{
+    display: inline-block;
+    margin-left: 0px;
+ }
+ 
+  
+ #footer-area li:hover{
+    color: red;
+    cursor: pointer;
+ }
+ 
+ #footer-area .icon li i{
+      margin-left: 2px;
+    color: #FFFFFF;
+    
+ }
+ #footer-area .addrss{ 
+    height: 253px;
+ }
+ 
+ #footer-area .addrss li{ 
+    margin-bottom: 15px;
+ }
+ /*========================
+ copyright-area
+ =========================*/
+ #copyright-area{
+    padding: 15px 0;
+    background-color: #223345;
+ }
+ #copyright-area .container{
+    background-color: #223345;
+
+ }
+ #copyright-area p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #FFFFFF;
+ } 
+ #copyright-area strong{
+    color: #1D8BC5;
+ }
+ #copyright-area span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px; 
+    margin-right: 15px;
+    text-align: right; 
+
+    color: #FFFFFF; 
+ }
+ #copyright-area .stong{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px; 
+    text-align: right;  
+    color: #FFFFFF;
+    
+ }
+ #copyright-area .right{ 
+    text-align: right;
+ }
+ #trusted-area .card{
+    background: radial-gradient(rgba(193, 193, 219, 0.468),rgba(181, 181, 234, 0.72),rgba(154, 154, 201, 0.468));
+    
+ }
+  
+ #trusted-area .card h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    font-family: "ubuntu";
+    text-align: left;
+     
+ }
+  
+ #trusted-area .card p{
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+  
+ }
+#trusted-area .posit{
+    position: absolute; 
+    z-index: 999;
+    content: "";
+    height: fit-content;
+    box-shadow: none;
+
+
+}
+
+#footer-area .row{
+    position: relative;
+    margin-top: 90px;
+    
+    
+}
+.col-lg-2 a{
+    font-size: 70px;
+}

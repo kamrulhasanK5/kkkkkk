@@ -1,0 +1,124 @@
+
+
+/*==============big devices============*/
+@media only screen and (min-width: 1200px) and (max-width: 1530px) {
+    header{
+        padding: 0px 0%;
+        transition: .5s;
+        box-shadow: rgba(0, 0, 0, 0.357);
+    }
+}
+/*===============ipad tablet========*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .collapse ul{
+     padding: .975rem 0 0 0px;
+    }
+
+   .
+     
+}
+
+/*============mobile================*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    /*some style*/
+    .navbar-brand span{ 
+        
+       
+       }
+
+
+    /*nav button and ul*/
+    .navbar-toggler{
+        
+    }
+    
+  .collapse ul{ 
+   
+    
+   
+
+  }
+ .log-in{
+    
+ }
+  .collapse ul li{ 
+   
+
+   
+  
+}
+  .collapse ul li a{
+ 
+
+  }
+  
+}
+/*============ small mobile================*/
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+    .navbar-toggler{
+        border: none;
+        box-shadow: 0;
+    }
+    #about-area .card{
+        width: 100%;
+    }
+    #about-area .card-body{
+        margin: 0 auto;
+    }
+    .collapse ul{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 539px)
+{
+    #about-area h2{
+        text-align: center;
+    }
+    #about-area .card{
+        width: 100%;
+    }
+    #about-area .card-body{
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  only screen and (min-width: 320px) and (max-width: 480px)
+
+{
+
+}
+
